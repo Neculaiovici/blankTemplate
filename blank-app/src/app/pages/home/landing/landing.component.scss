@@ -1,0 +1,41 @@
+$blue-50: #0442BF;
+$blue-15: #0487D9;
+$blue2-15: #049DD9;
+$yello-10: #F2CB05;
+$yello2-10: #F2B705;
+
+header,
+.view {
+    min-height: 100vh;
+}
+header {
+    background-image: url("../../../../assets/images/landing.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    & .title{
+        color: #fdfdfd;
+        font-family: poppins-bold;
+        text-shadow: 4px 4px 5px rgb(0 0 0 / 13%);
+    }
+    & .moto {
+        color: #fdfdfd;
+        font-family: poppins-regular;
+    }
+    & .hr-w {
+        border-top: 1px solid $yello-10;
+    }
+}
+.qa-form {
+    background: rgba(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.23);
+}
+.myBtn {
+    background-color: $yello2-10;
+    border-radius: 30px;
+    opacity: 90%;
+    font-family: poppins-black;
+}

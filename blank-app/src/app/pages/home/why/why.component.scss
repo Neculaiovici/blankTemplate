@@ -1,0 +1,47 @@
+$blue-50: #0442BF;
+$blue-15: #0487D9;
+$blue2-15: #049DD9;
+$yello-10: #F2CB05;
+$yello2-10: #F2B705;
+.title{
+    font-family: poppins-bold;
+    text-shadow: 4px 4px 5px rgb(0 0 0 / 13%);
+}
+.subtitle{
+    font-family: poppins-regular;
+}
+.btn-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding: 5px;
+    font-family: poppins-black;
+    text-shadow: 4px 4px 5px rgb(0 0 0 / 13%);
+
+    & i{
+        color: $blue-15;
+        align-self:center;
+        margin-right: 10px;
+        transition: 500ms;
+    }
+
+    & .phone-number{
+        color: #252525;
+        align-self:center;
+        font-weight: bold;
+        letter-spacing: 3px;
+        transition: 500ms;
+    }
+}
+.btn-contact:hover{
+    & i{
+        color:#252525;
+    }
+
+    & .phone-number{
+        color: $blue-15;
+    }
+}

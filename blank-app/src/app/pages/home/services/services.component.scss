@@ -1,0 +1,13 @@
+.tlt-shadow{
+    font-family: poppins-bold;
+    text-shadow: 4px 4px 5px rgb(0 0 0 / 13%);
+}
+.content{
+    &__cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+        align-content: center;
+    }
+}
